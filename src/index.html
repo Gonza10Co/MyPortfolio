@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+    href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+    >
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body class="bg-black text-white overflow-x-hidden select-none">
+    <nav
+      class="fixed top-0 w-screen h-16 bg-rose-900 flex justify-around items-center text-lg sm:justify-end"
+    >
+      <a href="#welcome" class="mr-10">About</a>
+      <a href="#projects" class="mr-10">Projects</a>
+      <a href="#contact" class="mr-10">Contact</a>
+    </nav>
+
+    <section
+      id="welcome"
+      class="w-screen h-screen bg-gradient-to-b from-black via-gray-700 to-black mt-16"
+    >
+      <div
+        class="container h-full mx-auto flex flex-wrap-reverse justify-center items-center gap-10 p-20"
+      >
+        <img
+          src="../public/assets/dev.jpeg"
+          alt=""
+          class="w-96 h-96 rounded-full"
+        />
+        <div class="w-96">
+          <h1 class="text-rose-500 text-5xl font-bold mb-5">
+            Hey there, I am Gonzalo!!!
+          </h1>
+          <h5 class="text-2xl mb-5">
+            🚀 Full Stack Web
+            <span class="text-rose-500 font-semibold">Developer</span>
+          </h5>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="projects"
+      class="w-screen h-screen bg-gradient-to-b from-black via-gray-800 to-black flex flex-col justify-center text-center"
+    >
+      <h2 class="text-5xl font-semibold">These are my proyects...</h2>
+      <div class="flex flex-wrap justify-center items-center gap-10 mt-10">
+        <div class="w-[600px] h-96">
+          <a href="">
+            <img
+              src="../public/assets/Doggypedia.PNG"
+              alt="Doggypydia"
+              class="h-80 object-cover"
+            />
+          </a>
+          <h3 class="mt-8 text-2xl text-yellow-200 font-semibold">
+            Doggypedia
+          </h3>
+        </div>
+        <div class="w-[600px] h-96">
+          <a href="https://cakes-and-bases.vercel.app/" target="_blank">
+            <img
+              src="../public/assets/Cakes.PNG"
+              alt="Cakes and Bases"
+              class="h-80 object-cover"
+            />
+          </a>
+          <h3 class="mt-8 text-2xl font-semibold">
+            Cakes<span class="text-violet-500">&</span>Bases
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      class="bg-gradient-to-b from-black via-gray-800 to-black w-screen h-[calc(100vh-8rem)] flex flex-col justify-center text-center"
+    >
+      <div>
+        <h2 class="text-5xl font-bold">Let's work together...</h2>
+        <h2 class="text-xl font-thin italic mt-5">
+          I look forward to hearing from you soon!
+        </h2>
+      </div>
+      <div class="mt-20 text-2xl flex flex-wrap justify-center gap-10">
+        <a
+          href="https://www.facebook.com/gonzalo.correa.g/"
+          target="_blank"
+          class="mr-10 btn contact-details"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/Gonza10Co"
+          target="_blank"
+          class="mr-10 btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://twitter.com/GonzaloCorreaG"
+          target="_blank"
+          class="mr-10 btn contact-details"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+        <a
+          href="https://www.linkedin.com/in/gonzalo-correa-g/"
+          target="_blank"
+          class="mr-10 btn contact-details"
+          ><i class="fab fa-linkedin"></i> LinkedIn</a
+        >
+        <a
+          href="mailto:gonzalo_correa_g@hotmail.com.com"
+          class="btn contact-details"
+          ><i class="fas fa-at"></i> Send a mail</a
+        >
+      </div>
+    </section>
+    <footer
+      class="bg-black w-screen h-[8rem] border-t-2 border-t-rose-500 flex justify-center items-center"
+    >
+      <p>© Created for gonzalo_correa_g@hotmail.com - Ibague (Tol) Colombia</p>
+    </footer>
+  </body>
+</html>
